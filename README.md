@@ -1,6 +1,6 @@
 # next-whitelabel-template
 
-<a href="https://pointblankdev.github.io/next-whitelabel-tempalte/">
+<a href="https://pointblankdev.github.io/next-whitelabel-template/">
   <img src="https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg" alt="Storybook">
 </a>
 <a href="https://gitmoji.dev">
