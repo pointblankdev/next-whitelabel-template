@@ -1,4 +1,4 @@
-# next-whitelabel-tempalte
+# next-whitelabel-template
 
 <a href="https://pointblankdev.github.io/next-whitelabel-tempalte/">
   <img src="https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg" alt="Storybook">
@@ -12,5 +12,3 @@
 ## Requirements
 
 -   📦 [NodeJS](https://github.com/nvm-sh/nvm) ^14
-
--   🔑 [AWS User](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_identity-management.html) programatic access
