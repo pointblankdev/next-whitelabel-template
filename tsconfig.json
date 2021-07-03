@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "strict": false,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "baseUrl": ".",
+        "incremental": true,
+        "tsBuildInfoFile": ".tsbuildinfo",
+        "paths": {
+            "@components/*": ["src/components/*"],
+            "@components": ["src/components"],
+            "@sections/*": ["src/sections/*"],
+            "@sections": ["src/sections"],
+            "@layouts/*": ["src/layouts/*"],
+            "@layouts": ["src/layouts"],
+            "@public/*": ["public/*"],
+            "@public": ["public"],
+            "@interfaces/*": ["src/interfaces/*"],
+            "@interfaces": ["src/interfaces"],
+            "@styles/*": ["src/styles/*"],
+            "@styles": ["src/styles"],
+            "@themes/*": ["src/styles/themes/*"],
+            "@services/*": ["src/services/*"],
+            "@services": ["src/services"],
+            "@test/*": ["test/*"],
+            "@test": ["test"]
+        }
+    },
+    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+    "exclude": [
+        "node_modules",
+        "__generated__/globalTypes.ts",
+        "test/*",
+        "src/_tailwindui"
+    ]
+}

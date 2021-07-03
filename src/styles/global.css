@@ -1,0 +1,11 @@
+@tailwind base;
+@layer base {
+    [type="text"]:focus {
+        border-color: currentColor;
+        --tw-ring-color: currentColor;
+    }
+}
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css?family=Lato");

@@ -1,0 +1,13 @@
+# npm
+node_modules
+# next.js build files
+.next
+# environment variables
+.env.*
+!.env
+!.env.example
+!.env*.sample
+**/*/.DS_Store
+./DS_Store
+.tsbuildinfo
+*.log

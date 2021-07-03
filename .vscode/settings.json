@@ -1,0 +1,37 @@
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "explorer.compactFolders": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "editor.suggest.showWords": false,
+    "editor.quickSuggestions": { "strings": true },
+    "editor.detectIndentation": true,
+    "eslint.options": {
+        "extensions": [".js", ".jsx", ".md", ".mdx", ".ts", ".tsx"]
+    },
+    "eslint.validate": ["markdown", "mdx", "javascript", "javascriptreact", "typescript", "typescriptreact"],
+    "files.exclude": {
+        ".next": true,
+        ".build": true,
+        ".husky": true,
+        "node_modules": true
+    },
+    "files.eol": "\n",
+    "githubIssues.issueBranchTitle": "${user}/issue-${issueNumber}",
+    "githubIssues.workingIssueFormatScm": "${issueTitle}. ${issueNumberLabel}",
+    "githubIssues.queries": [
+        {
+            "label": "My Issues",
+            "query": "default"
+        },
+        {
+            "label": "Created Issues",
+            "query": "author:${user} state:open repo:${owner}/${repository} sort:created-desc"
+        },
+        {
+            "label": "All Issues",
+            "query": "state:open repo:${owner}/${repository} sort:created-desc"
+        }
+    ],
+    "jestrunner.jestCommand": "yarn jest -c test/jest.config.js"
+}

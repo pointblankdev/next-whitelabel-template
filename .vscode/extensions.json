@@ -1,0 +1,25 @@
+{
+    "recommendations": [
+        "apollographql.vscode-apollo",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "wix.vscode-import-cost",
+        "kisstkondoros.vscode-gutter-preview",
+        "eamodio.gitlens",
+        "jpoissonnier.vscode-styled-components",
+        "gruntfuggly.todo-tree",
+        "github.vscode-pull-request-github",
+        "gimenete.github-linker",
+        "ecmel.vscode-html-css",
+        "vscode-icons-team.vscode-icons",
+        "silvenon.mdx",
+        "cssho.vscode-svgviewer",
+        "dbaeumer.vscode-eslint",
+        "jounqin.vscode-mdx",
+        "lightyen.tailwindcss-intellisense-twin",
+        "meganrogge.template-string-converter",
+        "firsttris.vscode-jest-runner",
+        "andys8.jest-snippets",
+        "mikestead.dotenv"
+    ]
+}

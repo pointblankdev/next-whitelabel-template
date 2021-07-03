@@ -1,0 +1,20 @@
+{
+  "src/**/*.{js,jsx,ts,tsx}": [
+    "eslint",
+    "prettier --write"
+  ],
+  "src/**/*.{json,css}": [
+    "prettier --write"
+  ],
+  "test/**/*.{js,ts,json}": [
+    "eslint",
+    "prettier --write"
+  ],
+  "test/**/*.{json}": [
+    "prettier --write"
+  ],
+  "pages/**/*.{js,ts,jsx,tsx}": [
+    "eslint",
+    "prettier --write"
+  ] 
+}
